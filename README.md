@@ -12,7 +12,7 @@ Example of npm package using GitHub packages registry
   @alfonsodguez:registry=https://npm.pkg.github.com
   //npm.pkg.github.com/:_authToken=GITHUB_TOKEN
   ```
-
+  you need authentication token to use the package
 
 ## Maintenance
 Follow the steps below (you need to be registered into npm) to publish and update the package:
