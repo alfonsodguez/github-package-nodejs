@@ -5,7 +5,7 @@ Example of npm package using GitHub packages registry
 ## Basic usage
 * Install package in your project
   ```
-  npm install @alfonsodguez/nodejs-github-package@1.0.2
+  $ npm install @alfonsodguez/nodejs-github-package@1.0.2
   ```
 * create .npmrc file in the root of project and add the next configuration: 
   ```
@@ -26,5 +26,5 @@ Follow the steps below (you need to be registered into npm) to publish and updat
   ```
 * Publishing packages
   ```
-  npm run release
+  $ npm run release
   ```
