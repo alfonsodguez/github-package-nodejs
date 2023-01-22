@@ -1,0 +1,7 @@
+/lib
+/node_modules
+/src
+/test
+/.vscode
+/.babelrc
+/.npmignore

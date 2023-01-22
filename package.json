@@ -1,0 +1,35 @@
+{
+  "name": "@alfonsodguez/nodejs-github-package",
+  "version": "1.0.1",
+  "description": "Example of npm package using GitHub packages registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register --timeout 30000",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "publishConfig": {
+    "@alfonsodguez:registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfonsodguez/nodejs-github-package.git"
+  },
+  "author": "Alfonso Cobelas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alfonsodguez/nodejs-github-package/issues"
+  },
+  "homepage": "https://github.com/alfonsodguez/nodejs-github-package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "standard-version": "^9.5.0"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.1.1"
+  }
+}
