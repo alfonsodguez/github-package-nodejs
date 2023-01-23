@@ -7,9 +7,6 @@
     "test": "mocha --require @babel/register --timeout 30000",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
-  "publishConfig": {
-    "@alfonsodguez:registry": "https://npm.pkg.github.com"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alfonsodguez/nodejs-github-package.git"
