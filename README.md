@@ -24,7 +24,7 @@ Follow the steps below (you need to be registered into npm) to publish and updat
   > Password: TOKEN
   > Email: PUBLIC-EMAIL-ADDRESS
   ```
-* Publishing packages
+* Publishing packages (**use also to update**)
   ```
   $ npm run release
   ```
