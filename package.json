@@ -1,6 +1,6 @@
 {
   "name": "@alfonsodguez/nodejs-github-package",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Example of npm package using GitHub packages registry",
   "main": "index.js",
   "type": "module",
