@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "Example of npm package using GitHub packages registry",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha --require @babel/register --timeout 30000",
     "release": "standard-version && git push --follow-tags && npm publish"
